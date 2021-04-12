@@ -1,7 +1,5 @@
 # Sensor Fusion Self-Driving Car Course
 
-<img src="https://github.com/awbrown90/SensorFusionHighway/blob/master/media/ObstacleDetectionFPS.gif" width="700" height="400" />
-
 ### Welcome to the Sensor Fusion course for self-driving cars.
 
 In this course we will be talking about sensor fusion, whch is the process of taking data from multiple sensors and combining it to give us a better understanding of the world around us. we will mostly be focusing on two sensors, lidar, and radar. By the end we will be fusing the data from these two sensors to track multiple cars on the road, estimating their positions and speed.
@@ -10,8 +8,17 @@ In this course we will be talking about sensor fusion, whch is the process of ta
 
 **Radar** data is typically very sparse and in a limited range, however it can directly tell us how fast an object is moving in a certain direction. This ability makes radars a very pratical sensor for doing things like cruise control where its important to know how fast the car infront of you is traveling. Radar sensors are also very affordable and common now of days in newer cars.
 
-**Sensor Fusion** by combing lidar's high resoultion imaging with radar's ability to measure velocity of objects we can get a better understanding of the sorrounding environment than we could using one of the sensors alone.
+**Sensor** Fusion by combing lidar's high resoultion imaging with radar's ability to measure velocity of objects we can get a better understanding of the sorrounding environment than we could using one of the sensors alone.**
 
+### Lidar Obstacle Detection Project
+
+In this project we worked on real PCD data stream, we have built the complete pipeline including filtering the PCD data using Voxel grid method and Region of Interest, next we have done segmentation using RANSAC 3D Plane method,
+  
+then performing clustering using KD-Tree data structure, and Euclidean clustering algorithms, finally Bounding boxes implemntation for the different clusters.
+
+<img src="media/Lidar_Obstacle_Detection.png" width="700" height="400" />
+
+<img src="media/Segmentation.png" width="700" height="400" />
 
 ## Installation
 
