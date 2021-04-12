@@ -16,9 +16,9 @@ In this project we worked on real PCD data stream, we have built the complete pi
   
 then performing clustering using KD-Tree data structure, and Euclidean clustering algorithms, finally Bounding boxes implemntation for the different clusters.
 
-<img src="media/Lidar_Obstacle_Detection.png" width="700" height="400" />
+<img src="media/Lidar_Obstacle_Detection.PNG" width="700" height="400" />
 
-<img src="media/Segmentation.png" width="700" height="400" />
+<img src="media/Segmentation.PNG" width="700" height="400" />
 
 ## Installation
 
